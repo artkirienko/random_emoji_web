@@ -1,5 +1,5 @@
 class EmojiList
-  EMOJI_PEOPLE = %w{
+  EMOJI_PEOPLE = %w(
     :smile:
     :laughing:
     :blush:
@@ -174,9 +174,9 @@ class EmojiList
     :busts_in_silhouette:
     :speech_balloon:
     :thought_balloon:
-  }
+  ).freeze
 
-  EMOJI_NATURE = %w{
+  EMOJI_NATURE = %w(
     :sunny:
     :umbrella:
     :cloud:
@@ -288,9 +288,9 @@ class EmojiList
     :volcano:
     :milky_way:
     :partly_sunny:
-  }
+  ).freeze
 
-  EMOJI_OBJECTS = %w{
+  EMOJI_OBJECTS = %w(
     :bamboo:
     :gift_heart:
     :dolls:
@@ -547,9 +547,9 @@ class EmojiList
     :eggplant:
     :tomato:
     :corn:
-  }
+  ).freeze
 
-  EMOJI_PLACES = %w{
+  EMOJI_PLACES = %w(
     :house:
     :house_with_garden:
     :school:
@@ -653,9 +653,9 @@ class EmojiList
     :ru:
     :gb:
     :de:
-  }
+  ).freeze
 
-  EMOJI_SYMBOLS = %w{
+  EMOJI_SYMBOLS = %w(
     :keycap_ten:
     :1234:
     :symbols:
@@ -843,9 +843,9 @@ class EmojiList
     :small_orange_diamond:
     :small_red_triangle:
     :small_red_triangle_down:
-  }
+  ).freeze
 
-  EMOJI_CODES = %w{
+  EMOJI_CODES = %w(
     :smile:
     :laughing:
     :blush:
@@ -1677,7 +1677,7 @@ class EmojiList
     :small_orange_diamond:
     :small_red_triangle:
     :small_red_triangle_down:
-  }
+  ).freeze
 
   def self.people
     EMOJI_PEOPLE

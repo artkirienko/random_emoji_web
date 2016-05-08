@@ -28,6 +28,7 @@ end
 
 group :development do
   gem 'rails_best_practices'
+  gem 'rubocop', require: false
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'

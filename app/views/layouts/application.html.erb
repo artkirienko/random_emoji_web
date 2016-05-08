@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RandomEmojiWeb</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <h1><%= yield(:title) %></h1>
+    <p>Emoji emoticons listed on this page are supported on <strong>GitHub, GitLab, Bitbucket</strong></p>
     <%= yield %>
+    <div>
+      <p>Navigation:</p>
+      <p><%= link_to 'Random', root_path %></p>
+      <p><%= link_to 'Full list', full_list_path %></p>
+    </div>
   </body>
 </html>

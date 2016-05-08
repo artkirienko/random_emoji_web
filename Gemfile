@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.0'
 
 # Heroku support:
 gem 'rails_12factor', group: :production
-
+gem 'gemoji'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

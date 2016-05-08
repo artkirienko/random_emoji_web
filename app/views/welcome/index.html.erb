@@ -1,2 +1,17 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<% provide(:title, 'Full Emoji List') %>
+
+<p>People:</p>
+<p><%= emojify(@people.join(' ')) %></p>
+
+<p>Nature:</p>
+<p><%= emojify(@nature.join(' ')) %></p>
+
+<p>Objects:</p>
+<p><%= emojify(@objects.join(' ')) %></p>
+
+<p>Places:</p>
+<p><%= emojify(@places.join(' ')) %></p>
+
+<p>Symbols:</p>
+<p><%= emojify(@symbols.join(' ')) %></p>
+

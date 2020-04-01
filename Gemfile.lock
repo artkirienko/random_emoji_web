@@ -41,7 +41,7 @@ GEM
     arel (7.0.0)
     ast (2.2.0)
     builder (3.2.2)
-    byebug (8.2.5)
+    byebug (11.0.1)
     code_analyzer (0.4.5)
       sexp_processor
     coffee-rails (4.1.1)

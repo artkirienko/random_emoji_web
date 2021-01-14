@@ -30,7 +30,7 @@ group :development do
   gem 'rails_best_practices'
   gem 'rubocop', require: false
   gem 'web-console'
-  gem 'listen', '~> 3.0.5'
+  gem 'listen', '~> 3.4.1'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end

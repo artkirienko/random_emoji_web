@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - artkirienko
+  assignees:
+  - artkirienko
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
+  ignore:
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
+  - dependency-name: listen
+    versions:
+    - 3.4.1
+  - dependency-name: ffi
+    versions:
+    - 1.14.2
